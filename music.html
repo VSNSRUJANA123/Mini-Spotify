@@ -1,0 +1,1972 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/894699623d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <div class="logo">MUSIC WOOD</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active link-color" href="#">
+                        Home <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link link-color" href="#">Artists</a>
+                    <a class="nav-link link-color" href="#">Saved</a>
+                    <a class="nav-link link-color" href="#">Profile</a>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-contanier d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class=" text-align">
+                            <h1 class="enjoy-music">Enjoy The Music</h1>
+                            <p class="any-time">_________ Any Time _________</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="latest-heading">Latest Song</h1>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card1 d-flex flex-row" onclick="display('sectionTop')">
+                            <img src="https://getwallpapers.com/wallpaper/full/a/2/8/448439.jpg" alt="image" width="30%">
+                            <div>
+                                <h1 class="card-heading">Your Top Songs 2023</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card1 d-flex flex-row" onclick="display('sectionReleases')">
+                            <img src="https://th.bing.com/th/id/R.9ee4e0800bd9fa46fddea889311a2149?rik=WX4prNG1oydBLg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2fb%2f7%2f1106366-amazing-music-instrument-wallpaper-1920x1200-lockscreen.jpg&ehk=4GN9ZAHjLUaCfTUEj3a28ALbPNfWi1RKfxYJUBaXeuU%3d&risl=&pid=ImgRaw&r=0" alt="image" width="30%">
+                            <div>
+                                <h1 class="card-heading">New Releases Songs</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card1 d-flex flex-row" onclick="display('sectionTollywood')">
+                            <img src="https://wallpapercave.com/wp/wp2805921.jpg" alt="image" width="30%">
+                            <div>
+                                <h1 class="card-heading">Tollywood Mix Songs</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4" onclick="display('sectionHot')">
+                        <div class="card1 d-flex flex-row">
+                            <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="image" width="25%">
+                            <div>
+                                <h1 class="card-heading">Hot Hits Telugu Songs</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4" onclick="display('sectionTollywoodSingles')">
+                        <div class="card1 d-flex flex-row">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.eFJ2Sfky683cAElnOb5dhQHaEK?pid=ImgDet&rs=1" alt="image" width="30%">
+                            <div>
+                                <h1 class="card-heading">Tollywood Singles Songs</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4" onclick="display('sectionRomantic')">
+                        <div class="card1 d-flex flex-row">
+                            <img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="image" width="30%">
+                            <div>
+                                <h1 class="card-heading">Tollywood Romantic</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="latest-heading">Devotional Songs</h1>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3" onclick="display('sectionGanesh')">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://i1.wp.com/youmeandtrends.com/wp-content/uploads/2016/06/ganesh-ji-3.jpg" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Ganesh Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 " onclick="display('sectionHanuman')">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://images.unsplash.com/photo-1583089892943-e02e5b017b6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Hanuman Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow" onclick="display('sectionSiva')">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/5935662/pexels-photo-5935662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Shiva Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3" onclick="display('sectionGovinda')">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.f5330c5aabc5c54ab54a607248165765?rik=OpDD4a0T19IQ9g&riu=http%3a%2f%2f4.bp.blogspot.com%2f-6fOPfcRygBU%2fUwmMppbRP-I%2fAAAAAAAAAzk%2f0Wz4pfxP9ug%2fs1600%2fVENKATESWARA%2bSWAMY.jpg&ehk=w45MusU5ZBPd6EbeCT3WlSDgtbyxnQvTgcgzIK2DiIo%3d&risl=&pid=ImgRaw&r=0" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Govinda Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3" onclick="display('sectionSAiBABA')">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://i.pinimg.com/originals/01/80/3f/01803fe894779377b80aa456a61f0693.jpg" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Sai Baba Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3" onclick="display('sectionayyappa')">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://divineinfoguru.com/wp-content/uploads/2017/11/lord-ayyappa-wallpapers-mobile-desktop-hd-divineinfoguru-1.gif" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Ayyappa Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.0b3e0735dd3fb07c3bc54eaec8ec33f9?rik=hRElK5i0M%2fvZAw&riu=http%3a%2f%2fblog.getsholidays.com%2fwp-content%2fuploads%2f2016%2f09%2fMaa-Kalika-Devi-hd-wallpapers-5-4.jpg&ehk=TmNBiScm0udfi%2fP9apS4b5SJ2QGz%2ftC1yPl47dfVqn0%3d&risl=&pid=ImgRaw&r=0" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Kalimatha Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://i.pinimg.com/736x/3a/51/84/3a51845e30c27e86271dcc4905d04994.jpg" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Kalika Devi Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="latest-heading">Rock Songs</h1>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://www.moviecanny.com/wp-content/uploads/2019/09/Prabhas-Fetured-image.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Prabhas Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://tse1.mm.bing.net/th/id/OIP.zqOPCRkJKikL0SxOGZ8upwHaF1?pid=ImgDet&rs=1" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Allu Arjun Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.03ef404638c74985b072b2d001e9a4ab?rik=zSkQD83wuPIaFQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-XfsG8-Lw3OU%2fTZIPrI3JXQI%2fAAAAAAAABu4%2fGPoWgH6hhKE%2fs1600%2fMahesh%2bBabu%2b6.jpg&ehk=yOyUgrkM%2fqJgnq68Q%2fUTmIYWps6KZF8943rzj7pwc1c%3d&risl=&pid=ImgRaw&r=0" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">MaheshBabu Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.42855d54736715c5391a475b448c019a?rik=fW%2fyedwZbc3MAQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-iAr1SusHJW0%2fT1Q-1_8Y6FI%2fAAAAAAAAQlA%2fa_akZRps1p8%2fs1600%2fkalyan%2b16.jpg&ehk=o%2fnU0RORog3Miw7ciGapHaDVg7SclBPiwx9ghBaWaDQ%3d&risl=&pid=ImgRaw&r=0" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Pavan Kalyan Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://i0.wp.com/godofindia.com/wp-content/uploads/2017/05/ram-charan-38.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Ramcharan Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://wallpapers.filmibeat.com/ph-1024x768/2016/05/jr-ntr_146371934700.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">NTR Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://cdn.123telugu.com/content/wp-content/uploads/2018/08/Raviteja-m.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">RaviTeja Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.5c23160df9de9c77378769d822f61771?rik=G7dW82SFVuFspw&riu=http%3a%2f%2fvellithira.in%2fgallery%2fdata%2fmedia%2f542%2fEecha_02.jpg&ehk=REXJWRiyYgFnA%2blWVs5gnpAhKcnWVMxpWOSFD5Vjm5w%3d&risl=&pid=ImgRaw&r=0" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Nani Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="latest-heading">Melody Songs</h1>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://www.deccanherald.com/sites/dh/files/articleimages/2020/06/10/Balakrishna-1591770011.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">BalaKrishna Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2016/05/24/463733-chiranjeevi.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">chiranjeevi Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://images.indiawords.com/wp-content/uploads/2017/11/Akkineni-Nagarjuna-cool-looking-image.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Nagarjuna Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.1ab63f90d555cd61db0c2b229a1c272a?rik=I4Kryo40XrSxaA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mz8vBO3hJv0%2fTyTboVqhRaI%2fAAAAAAAAJPA%2fhhwY_hQU0Z0%2fs1600%2fSuperstar_Venkatesh_Wallpapers_Stills_Photos_cinema.nowlix.com-2.jpg&ehk=2y2OML34Wj0iPey2xnaTTJD8C6jQRNmvU%2bZuszBrbQA%3d&risl=&pid=ImgRaw&r=0" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Ventkatesh Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://www.behindwoods.com/tamil-movies-cinema-news-16/images/a-biopic-on-telugu-tamil-actor-uday-kiran-to-be-made-photos-pictures-stills.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Uday Kiran Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://th.bing.com/th/id/R.59de1eb1609bbcecaa5189491e379ac7?rik=FwD8OJ79S7ddyg&riu=http%3a%2f%2fwww.lovelytelugu.com%2fwp-content%2fuploads%2f2018%2f01%2f611028-tarun.jpg&ehk=clhPlRu79pn76g7SWktj9CgygI8ma6w4uoc%2beT8cJOo%3d&risl=&pid=ImgRaw&r=0" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Tarun Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="latest-heading">Sad Songs</h1>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://lh3.googleusercontent.com/-0l2QIK7ZDW8/YrqUjPDKfDI/AAAAAAAAICI/RF40MQHTQCssujEv4nzuX3hRmIQwuzeTwCNcBGAsYHQ/s1600/PicsArt_06-20-07.28.21.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Love Failure Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://www.nicequote.in/wp-content/uploads/2022/01/Love-Failure-Quotes-2.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Feel Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://f.vividscreen.info/soft/0290fbc9fd9af3f50262f90ea18cda3b/Red-Rose-On-Wooden-Surface-1920x1080.jpg" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">Heart broken Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="songs-card shadow ">
+                            <div class="image">
+                                <img src="https://scontent.fvga3-1.fna.fbcdn.net/v/t1.6435-9/139467177_2642338842673422_1928754081364315997_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=104&ccb=1-7&_nc_sid=110474&_nc_ohc=03aswxeRElcAX8VctRJ&_nc_ht=scontent.fvga3-1.fna&oh=00_AfCaJcxowMgAj-JgC-0q49JMhlaIMIQqr_YfGclk0xhMAA&oe=64072336" alt="image" class="pics">
+                                <div class="image-wrapper">
+                                    <i class="fa-solid fa-play play-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="song-title">ALone Songs</h1>
+                            <div class="icons">
+                                <i class="fa-solid fa-square-share-nodes share"></i>
+                                <i class="fa-sharp fa-solid fa-circle-down download"></i>
+                                <i class="fa-solid fa-heart heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTop">
+        <div class="bg-amination">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://getwallpapers.com/wallpaper/full/a/2/8/448439.jpg" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Top Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.thetelugufilmnagar.com/wp-content/uploads/2022/11/urike-urike-video-song-out-now.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Urike Urike song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675671470/iSongs.info_01_-_Urike_Urike_qttwqc.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://ratpaccheck.in/storage/2022/08/x65.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Dhintaka song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675675987/Jinthaak_x8imn8.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://media.99images.com/photos/movies-tv/major/major-movie-latest-hd-photos-posters-wallpapers-download-1080p-4cfm.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Hrudayama song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675669763/iSongs.info_01_-_Hrudayamaa_ncgwb5.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://moviegalleri.net/wp-content/gallery/waltair-veerayya/Waltair-Veerayya-Movie-HD-Images-11cd334.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Poonakaalu Loading song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675675824/y2mate.com_-_Waltair_Veerayya_Poonakaalu_Loading_Lyric_Megastar_Chiranjeevi_Ravi_Teja_DSP_Bobby_Kolli_cqurfc.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/6/61/Veera_Simha_Reddy_poster.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Jai Balaya song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675676083/Jai_Balayya_egelex.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongslyrics.com/wp-content/uploads/2022/10/Ori-Devuda-Telugu-2022-Gundellonaa-250x250-1.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Bujjamma song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675655603/Gundelonaa_vrhy6a.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBXyvcdlzZa9rVoStp6xj6wzlQSsST0tVIg8UHydvwSRYTSMiIdH7kkHGA0ty4_quaYbax3hwjJGrYkOsFVlfyksGz3vUfKwYsLujMu2Vu09a9yhD1rwS30ziZf6zdtax1iQ9by0fNnk7K0aIWoVHGZIzTYPSuI3QrKcOtGctdvwjuUOvYI_RQdt51HA/s1600/Still_001.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Mastaaru Mastaaru song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675655907/Mastaaru_Mastaaru_v8y4qj.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0bqrH45GisoXASPp7mdoKjfM3OV9CnDTa8foKIgepfRffROgCyC7dVCWQpbF9j9XlAbikb_ZWAi7vywBXFqIxFC4GqeYkornKhLnQWKHB5qCAdEMD0Qt2uC-t-CmaxmH0Xb6EG4SYumeOnfCWLEkOMgM8mpUhRmbOKflU0EK0rNBUBmMOMMCBF62N/s1600/Sita-Ramam-Movie-Stills-03.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Inthandam song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675660138/Inthandham_p1bfcg.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionReleases">
+        <div class="bg-amination">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://th.bing.com/th/id/R.9ee4e0800bd9fa46fddea889311a2149?rik=WX4prNG1oydBLg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2fb%2f7%2f1106366-amazing-music-instrument-wallpaper-1920x1200-lockscreen.jpg&ehk=4GN9ZAHjLUaCfTUEj3a28ALbPNfWi1RKfxYJUBaXeuU%3d&risl=&pid=ImgRaw&r=0" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">New Releases Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgVC4ivreKXRGfl3a99cbSp4dukAgABiIsLrLKGN8mxjeB5BZ-pbCFd40S9TLaOhz_kC5eXOtQqiKinmhg3_Fbz81blpgg_7mljb8eLAQW4sOU_Br1P9fugUqp70Q46sFOEcdCc_dTISS5D5Cz3uAGJI40CQ1uSZ_vkbXtmZIs6Rcnw4QgPqMoLF7wurQ" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Natu Natu song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675672488/iSongs.info_05_-_Naatu_Naatu_cl6tsa.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://assets.thehansindia.com/h-upload/2022/02/17/1277292-flsbpiwakaawzaj.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Bheemla nayak song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675672868/Bheemla_Nayak_mfa0pb.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://cdn.123telugu.com/content/wp-content/uploads/2022/10/Dj-Tillu.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Dj Tillu song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675673153/Tillu_Anna_DJ_Pedithe_nlpqp5.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHT8M0NHYmuZaf7vbqtGyA63zk5-qAnzjVd3yA-Mr32Jj_E9ypYnHPOJh7luwpinKt5bMtbg7yKArTvR_0zTpdSiMgErv7RCCfywI7Z8WpsqJCZbqF1IHlZDsCmj35pD7fBFzexd3Bs6wY1aDULIlXAwQ_qlempHNWB3rGaOAcqmvMHBL5Sb8RjYU4tQ/s1600/dus%20ka%20dhamki%20%281%29.JPG" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Almost Padipoyondhe song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675673507/iSongs.info_01_-_Almost_Padipoyindhe_Pilla_j3vov5.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://i0.wp.com/www.moviezupp.com/wp-content/uploads/2022/04/Ram-Charan-and-Chiranjeevi-Acharya-wallpapers.jpg?w=616&ssl=1" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Bhale Bhale Banjara song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675674275/iSongs.info_04_-_Bhale_Bhale_Banjara_yaxdu3.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://res.cloudinary.com/dqx9bugr3/image/upload/v1675698985/main_bxm6um.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Hey Manasendukila song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675675490/Hey_Manasendukila_-_SenSongsMp3.Com_bodts9.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.co/wp-content/uploads/2022/07/The-Warrior-Telugu-2022-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Bullet song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675677066/Bullet_PaglaSongs_xygra5.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.to/wp-content/uploads/2021/08/Manchi-Rojulochaie-Telugu-2021-So-So-Ga-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">SO So song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675677228/iSongs.info_01_-_So_So_Ga_siku0a.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTollywood">
+        <div class="bg-amination">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://wallpapercave.com/wp/wp2805921.jpg" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Tollywood Mix Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.thetelugufilmnagar.com/wp-content/uploads/2022/09/full-song-out-now-1.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Avunava song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675678107/02_-_Avunanavaa_kkpsf9.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://i0.wp.com/naasongspro.com/wp-content/uploads/2022/06/maxresdefault-1-8.jpg?resize=768%2C432&ssl=1" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Brindavanam Nunchi Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675678612/Brindavanam_Nunchi_jpoikg.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2021/09/Most-Eligible-Bachelor-songs.jpeg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Guche Gulabi Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675678994/Guche_Gulabi_hakpor.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.to/wp-content/uploads/2021/12/Khiladi-2021-Atta-Sudake-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Atta Sudake song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675679399/iSongs.info_03_-_Atta_Sudake_xkl8fl.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Ekkadiki_Pothavu_Chinnavada.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Chirunama Thana Chirunama song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675679932/1-_Chirunama_Thana_Chirunama-SenSongsMp3.Co_vmuotu.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://cdn.tollywood.net/wp-content/uploads/2018/10/Hello-Guru-Prema-Kosame-1st-Day-Collections-Beats-Vunnadhi-Okate-Zindagi.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Hello Guru Prema Kosame song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675680515/Hello_Guru_Prema_Kosame_-_SenSongsMp3.Co_cbwewv.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHot">
+        <div class="bg-amination">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Hot Hits Telugu Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.indiandjsmusic.co.in/wp-content/uploads/2022/02/Untitled-1.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Oo Antava song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675682005/iSongs.info_05_-_Oo_Antava..Oo_Oo_Antava_eqcuq2.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://static.toiimg.com/thumb/msid-85030596,imgsize-975073,width-800,height-600,resizemode-75/85030596.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Digu Digu Digu Naaga Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675698465/iSongs.info_02_-_Digu_Digu_Digu_Naaga_fpth7d.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://c.saavncdn.com/616/Jigelu-Rani-Dance-Hits-Telugu-2018-20180410-500x500.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Jigelu Rani song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675699386/Jigelu-Rani-Rela-Kumar-Ganta-Venkata-Lakshmi_fk29pc.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://static.toiimg.com/thumb/msid-70772317,width-800,height-600,resizemode-75,imgsize-1658804,pt-32,y_pad-40/70772317.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Jarra Jarra song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675699826/iSongs.info_01_-_Jarra_Jarra_zaasto.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.pinkvilla.com/imageresize/ra_ra_reddy.jpg?width=752&t=pvorg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Ra Ra Reddy song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675700012/Ra_Ra_Reddy_192_Ghantalele.com_tggwur.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.thestatesman.com/wp-content/uploads/2022/01/Kichcha-Sudeepas-Vikrant-Rona-release-postponed.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Ra RA Rakkamma song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675700107/Ra_Ra_Rakkamma_PagalWorld.com.se_ezelae.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://so6.filmy.today/albums/Tollywood/2017/Sep/19/Actress_Tamanna_Hot_Item_Song_in_Jai_Lava_Kusa_special_song_Swing_Zara/661cf682d0144d7be395709647a5573c.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Swing Zara song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675700338/Swing-Zara--From-Swing-Zara--From-Jai-Lava-Kusa---Neha-Bhasin-Dsp_g4sq8c.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://c.saavncdn.com/056/Jaya-Janaki-Nayaka-Telugu-2017-500x500.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">A for Apple song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675701213/A_For_Apple_-_SenSongsMp3.Co_kjohoi.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTollywoodSingles">
+        <div class="bg-amination">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.eFJ2Sfky683cAElnOb5dhQHaEK?pid=ImgDet&rs=1" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Tollywood Singles Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.to/wp-content/uploads/2022/02/Kotha-Kothaga-2022-Priyathama-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Priyatama song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675702180/iSongs.info_02_-_Priyathama_zbjscs.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/albums/9En3pqeWXD/En3pYvlkWX/size_l_1529784598.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Nalo Chilipikala Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675702466/Naalo_Chilipi_Kala_Theme_Song_-_SenSongsMp3.Co_z8w4pg.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.mirchi9.com/wp-content/uploads/2022/01/Bangarraju-2.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Naa Kosam song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675702770/Naa_Kosam_w5tuwg.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.co/wp-content/uploads/2021/10/Varudu-Kaavalenu-2021-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Kola Kalle Ilaa Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675703193/Kola_Kalle_Ilaa_-_SenSongsMp3.Com_ufly82.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/song/VdNW0JMKo5/NW05YYyabo/size_m_1581496939.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Singulu Kingulam song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675703692/Single_Kingulam_-_SenSongsMp3.Com_kijat8.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2020/02/bheeshma-review-nithiin-rashmika-mandannas-rom-com-with-a-strong-organic-message-strike-the-right-chord-1.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Singles Anthem song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675703867/Singles_Anthem_-_SenSongsMp3.Co_ndhelm.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://static.toiimg.com/thumb/msid-72398044,width-800,height-600,resizemode-75,imgsize-101637,pt-32,y_pad-40/72398044.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle"> Singilu Singilu(90ml) song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675704231/Singilu_Singilu_-_SenSongsMp3.Co_j33tsx.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/albums/21GWwR3pkg/GWwrAZGe3p/size_l_1617275115.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Hey Singulu Chinnode song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675704375/Ee_Single_Chinnode_pwmwyq.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionRomantic">
+        <div class="bg-amination">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Tollywood Romantic Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/albums/4Z9bqgo3yQ/Z9bqyPLJby/size_l_1613702526.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Jala Jala Jalapaatham song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675705724/Jala_Jala_Jalapaatham_Nuvvu_-_SenSongsMp3.Com_sdicrb.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://e0.pxfuel.com/wallpapers/174/1017/desktop-wallpaper-naa-peru-surya-movie-still-hair-hair-styles-allu-arjun-surya-the-soldier.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Beautiful Love Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675706081/Beautiful_Love_-_SenSongsMp3.Co_hmfa6q.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://w0.peakpx.com/wallpaper/807/110/HD-wallpaper-dhruva-actor-actress-charan-rakul-rakul-preet-rakulpreetsingh-ram-charan-ramcharan-telugu.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Pareshanura song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675706491/Pareshanura-SenSongsMp3.Co_vw5yx1.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://moviegalleri.net/wp-content/gallery/dhada-movie-pics/dhada_movie_pics_001.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Dhivani Dhupani Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675706833/iSongs.info_05_-_Diwali_Deepaanni_znelsf.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://telugunewsone.files.wordpress.com/2015/09/charan-kajal.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Gulabi Kallu Rendu song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675707047/Gulabi_Kallu_Rendu_Mullu-SenSongsMp3.Com_jmzxyp.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://w0.peakpx.com/wallpaper/653/88/HD-wallpaper-nani-aditi-aditi-rao-hydari-natural-star-saheba-tollywood-vishnu.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Manasu Maree song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675707766/01_-_Manasu_Maree_-_SenSongsMp3.Co_iuu5uj.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://igimages.gumlet.io/telugu/gallery/movies/mosteligiblebachelor2020/mosteligible05042021_01.jpg?w=600&dpr=1.0" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle"> Leharaayi Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675708075/Leharaayi_p4aiw1.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://m.media-amazon.com/images/I/81I3IkJItkL._SY606_.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Pachchadanamey song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675708518/06_-_Pachchadanamey_-_SenSongsMp3.co_ym46yw.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionGanesh">
+        <div class="bg-color-blur">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://i1.wp.com/youmeandtrends.com/wp-content/uploads/2016/06/ganesh-ji-3.jpg" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">GaneshSongs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://images.news18.com/ibnlive/uploads/2022/08/lord-ganesha-ganesh-festival-700-172145429-16618403903x2.jpg?impolicy=website&width=510&height=356" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Ekadantaya song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675744542/Ekadantaya_Vakratundaya_Gauri_Tanaya_Yadhi_Mahi-_PagalWorld.NL_yg9gjk.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://i2.ytimg.com/vi/yVHviEAZ1xg/default.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Ga Ga Ganapathi Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675745647/Ganapathi-Bappa-Moriya-Sujith-Veena_kpcafl.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.filmibeat.com/img/popcorn/movie_posters/devullu-20190222164527-18038.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Jaya Jaya Subakara song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675746130/Jaya_Jaya_Subhakara_-_SenSongsMp3.co_kq4eu2.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://lyricsing.com/wp-content/uploads/Thiru-Thiru-Gananadha-Song-Lyrics-120x68.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Tiru Tiru Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675746130/Thiru_Thiru_Gananadha_-_SenSongsmp3.Co_l5xwga.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://static.toiimg.com/thumb/msid-86069563/86069563.jpg?width=500&resizemode=4" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Dandalaya Undralaya song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675746773/06_-_Dandaalayya_www.SenSongsMp3.co_wjn2au.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://i.ytimg.com/vi/ofaPL-8Gb98/maxresdefault.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Jai Jai Ganesh song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675746922/01_-_Jai_Jai_Ganesha_-_SenSongsMp3.co_i6zhto.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHanuman">
+        <div class="bg-color-blur">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://images.unsplash.com/photo-1583089892943-e02e5b017b6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">HanumanSongs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="data:image/jpeg;base64,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" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">E E_Yogamanukonu song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675747589/E_Yogamanukonu_-_SenSongsMp3.Co_toutmb.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/albums/jBr3gybR1m/Br3g9RgNbR/size_l.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Sri Anjaneya Slokam Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675747782/Slokam_Sri_Anjaneyam_-_SenSongsMp3.Co_lppcmh.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.cinejosh.com/newsimg/newsmainimg/supreme-promotions-never-exposed-child-sentiment_b_0705161000.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Anjaneyudu Neevadu song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675748029/Anjaneyudu_Neevadu_SenSongsMp3.Com_pj8hvg.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://i.ytimg.com/vi/S1thKwZ-HQc/maxresdefault.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Sri Anjaneyam Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675748434/Sri_Anjaneyam-SenSongsMp3.Co_fkazxi.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/albums/jBr3gybR1m/Br3g9RgNbR/size_l.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Ooregi Raavayya song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675749047/Ooregi_Raavayya_-_SenSongsMp3.Co_zue8g8.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://images.herzindagi.info/image/2022/Dec/hanuman-ji-ki-mystery.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Anjaneya Dhandakam song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675749217/Sri-Hanuman-Dandakam-Parthasarathi_njehet.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSiva">
+        <div class="bg-color-blur">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://images.pexels.com/photos/5935662/pexels-photo-5935662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Siva Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2018/10/Sri-Manjunatha-2001jpeg-300x300.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Om Mahapraana Deepam Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675752304/Om_Mahaprana_Deepam-SenSongsMp3.Co_l2ad6a.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2018/06/Pournami-jpeg-300x300.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Bharatha Vedamuga Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675752435/Bharatha_Vedamuga-SenSongsMp3.Co_hd64ca.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://atozmp3.cc/wp-content/uploads/2014/03/Nenu-Devudni-2009-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Oh Sivoham song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675752633/iSongs.info_Om_Sivoham_dbxvci.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2018/10/Damarukam-2012jpeg.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Shiva Shiva Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675752992/Shiva_Shiva_Shankara_-_SenSongsmp3.Co_gvadax.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://atozmp3.cc/wp-content/uploads/2015/05/Baahubali-The-Beginning-Telugu-20152-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Sivuni Aana song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675753293/iSongs.info_04_-_Sivuni_Aana_nbmcse.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/1450172611/srch_adityamusic_INA091101125.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Shiva Thandavam song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675754370/videoplayback_ob89rw.mp4" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionGovinda">
+        <div class="bg-color-blur">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://th.bing.com/th/id/R.f5330c5aabc5c54ab54a607248165765?rik=OpDD4a0T19IQ9g&riu=http%3a%2f%2f4.bp.blogspot.com%2f-6fOPfcRygBU%2fUwmMppbRP-I%2fAAAAAAAAAzk%2f0Wz4pfxP9ug%2fs1600%2fVENKATESWARA%2bSWAMY.jpg&ehk=w45MusU5ZBPd6EbeCT3WlSDgtbyxnQvTgcgzIK2DiIo%3d&risl=&pid=ImgRaw&r=0" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Govindha Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.co/wp-content/uploads/2014/03/Dasavatharam-2008-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Mukunda Mukunda Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675755704/04_-_Mukundha_Mukundha_-_SenSongsMp3.co_s104w2.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.co/wp-content/uploads/2014/03/Dasavatharam-2008-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Rayini Matram Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675755704/02_-_Rayini_Maatram_-_SenSongsMp3.co_jfzuj4.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://sensongs.co/wp-content/uploads/2019/09/Om-Namo-Venkatesaya-2017jpeg.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Veyyi Namaluvad song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675756111/1-Veyyi_Vemulavada-SenSongsMp3.Co_mqxz0j.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://sensongsmp3.tv/wp-content/uploads/2015/04/sri-ramadhasu-songs-sensongsmp3co-300x300.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Allah Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675756544/Allah-SenSongsMp3.Co_fmhjf1.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://bestsimilar.com/img/movie/thumb/36/51552.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Kalaganti Kalaganti song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675756963/Kalaganti_Kalaganti_-_SenSongsMp3.Co_u7ycmz.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoY9FpecXIBIEabS-eReS8l6Q5BBOAWje9JCKFNmKB5o-C6ztq27MKITAjUo0NSdPMyls&usqp=CAU" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Nigama Nagamamta song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675757454/Nigama_Nagamamta_-_SenSongsMp3.Co_ah01jq.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSAiBABA">
+        <div class="bg-color-blur">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://i.pinimg.com/originals/01/80/3f/01803fe894779377b80aa456a61f0693.jpg" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Sai BABA Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2019/01/Sri-Shirdi-Saibaba-Mahathyam-1986jpeg-300x300.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Maa Paapalu Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675758358/Maa_Paapalu_-_SenSongsMp3.Co_arlg3h.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.co/wp-content/uploads/2014/04/Sri-Shirdi-Saibaba-Mahathyam-1986-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Baba Sai Baba Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675758490/Baba_Sai_Baba_-_SenSongsMp3.Co_dxzpa8.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://a10.gaanacdn.com/gn_img/albums/6Zxb27K9wN/Zxb2pG8G39/size_l.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Nuvu Leka song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675758654/Nuvu_Leka_-_SenSongsMp3.Co_c3fc9s.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://c.saavncdn.com/807/Pilisthe-Palukutha-Telugu-2021-20210727151630-500x500.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Pilisthe Palukutha Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675759040/iSongs.info_05_-_Pillisthe_Palukutanani_h1vdek.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2018/11/Devullu-2000jpeg-300x300.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Sirula Nosage song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675759302/Sirula_Nosage_-_SenSongsMp3.co_ihlwad.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.com.co/wp-content/uploads/2019/01/Shiridi-Sai-2012jpeg-300x300.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Saranu Saranu song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675759610/Saranu_Saranu_-_SenSongsmp3.Co_prts2j.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionayyappa">
+        <div class="bg-color-blur">
+            <div>
+                <i class="fa-solid fa-arrow-left-long back-icon" onclick="display('sectionhomepage')"></i>
+            </div>
+            <div>
+                <div class="latest-song-card">
+                    <img src="https://divineinfoguru.com/wp-content/uploads/2017/11/lord-ayyappa-wallpapers-mobile-desktop-hd-divineinfoguru-1.gif" class="latest-song-images">
+                </div>
+                <div>
+                    <h1 class="top-song-head">Ayyappa Devaya Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="playlist col-12">
+                            <i class="fa-sharp fa-solid fa-play playlist-play-icon"></i>
+                            <h2>Playlist</h2>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://1.bp.blogspot.com/-Noj4kTRZt_U/YPguOLW_fCI/AAAAAAAAECw/844gsuQZrd0KBFBmhoQuv0KFuAwI5g9hQCLcBGAsYHQ/s640/Ayyappa%2BDevaya%2BNamaha%2BSong%2BLyrics%2B%25E2%2580%25A2%2B%25E0%25B0%25A4%25E0%25B1%2586%25E0%25B0%25B2%25E0%25B1%2581%25E0%25B0%2597%25E0%25B1%2581%252C%2BEnglish%2B%25E2%2580%25A2%2BDevullu%2BCinema%2BLyrics%2B-%2BLyricsPULP.com.webp" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Ayyappa Devaya Namaha Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675759820/Ayyappa_Devaya_-_SenSongsMp3.co_scgpq7.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://naasongs.co/wp-content/uploads/2016/08/Sabarimalai-Yathra-1970-250x250.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Irumudikattu Song</h3>
+                                    <div class="d-flex flex-row">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675761987/iSongs.info_05_-_Irumudikattu_sgoqah.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://www.bhaktiphotos.com/wp-content/uploads/2022/06/God-Ayyappa-Swamy-1080p-HD-Pic-Image-Free-Download.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Bangaru Pallaki song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675764998/%E0%B0%AE%E0%B0%B2%E0%B0%B2%E0%B0%AA%E0%B0%B2_%E0%B0%AA%E0%B0%B2%E0%B0%B2%E0%B0%95_%E0%B0%AC%E0%B0%97%E0%B0%B0_%E0%B0%AA%E0%B0%B2%E0%B0%B2%E0%B0%95_V-3.8_Dappu_Srinu_Devotional_hj4nkv.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://tse3.mm.bing.net/th/id/OIP.YE9pcTDfhBkZAKqDWogADwHaEK?pid=ImgDet&rs=1" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Matti Tisava Song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675766002/Matti_Tisava_Matti_Bommanu_Chesava_Video_Song_qgf4bo.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://divineinfoguru.com/wp-content/uploads/2017/11/lord-ayyappa-wallpapers-mobile-desktop-hd-divineinfoguru-1.jpeg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Evaru Emannaru song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675766780/EVARU_EMANNARU_SWAMY_AYYAPPA_SONG_EDM_REMIXDJ_HASHWANTH_u1m1he.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex flex-row playlist-card mt-1 mb-1">
+                                <img src="https://divineinfoguru.com/wp-content/uploads/2017/11/lord-ayyappa-wallpapers-mobile-desktop-hd-divineinfoguru-3.jpg" class="song-img">
+                                <div class="song-margin">
+                                    <h3 class="song-tittle">Om Om Ayyappa song</h3>
+                                    <div class="d-flex flex-row" style="width:100%">
+                                        <audio controls class="audio-width">
+                                            <source src="https://res.cloudinary.com/dqx9bugr3/video/upload/v1675762761/iSongs.info_03_-_Om_Om_Ayyappa_kzbxvv.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <i class="fa-solid fa-heart heart playlist-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/sh20raj/AudiPlay/audiplay.min.js"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
